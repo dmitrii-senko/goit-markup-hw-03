@@ -1,0 +1,239 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color: #757575;
+  --title-color: #212121;
+  --alternative-text-color: #ffffff;
+  --address-color: rgba(255, 255, 255, 0.6);
+
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
+.body {
+  font-family: var(--main-font); /* page font */
+  font-style: normal; /* all fonts have normal font-style so I set it here */
+
+  color: var(--main-color); /* page text */
+
+  background-color: aquamarine; /* temporary */
+}
+.btn {
+  font-family: inherit;
+}
+/* ===================== LOGO ===================== */
+.logo-link {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  letter-spacing: 0.03em;
+}
+.header .logo-link {
+  color: var(--title-color);
+}
+.footer .logo-link {
+  color: var(--alternative-text-color);
+}
+.accent {
+  color: var(--accent-color);
+}
+/* ===================== END LOGO ===================== */
+
+/* ===================== HEADER ===================== */
+/* NAVIGATION */
+.nav-list {
+  list-style-type: none;
+}
+.nav-list-link {
+  font-family: var(--main-font); /* to be able to set it separately if needed */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+
+  letter-spacing: 0.02em;
+
+  color: var(--title-color);
+}
+/* END NAVIGATION */
+/* ADDRESS */
+.info-list {
+  list-style-type: none;
+}
+.info-item-link {
+  font-family: var(--main-font); /* to be able to set it separately if needed */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+
+  letter-spacing: 0.02em;
+
+  color: var(--main-color); /* to be able to set it separately if needed */
+}
+/* END ADDRESS */
+.nav-list-link:hover,
+.nav-list-link:focus,
+.info-item-link:hover,
+.info-item-link:focus {
+  color: var(--accent-color);
+}
+.nav-list-link.active {
+  color: var(--accent-color);
+}
+/* ===================== END HEADER ===================== */
+/* ===================== FOOTER ===================== */
+.footer {
+  background: #2f303a; /* temporary */
+}
+.address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+
+  letter-spacing: 0.03em;
+
+  color: var(--alternative-text-color);
+}
+.footer .info-item-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-link:hover,
+.address-link:focus,
+.footer .info-item-link:hover,
+.footer .info-item-link:focus {
+  color: var(--accent-color);
+}
+/* ===================== END FOOTER ===================== */
+/* ===================== INDEX HTML ===================== */
+/* GENERAL */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+/* END GENERAL */
+/*  HERO  */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--alternative-text-color);
+}
+.hero > .btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+
+  color: var(--alternative-text-color);
+}
+/*  END HERO */
+/* BENEFITS */
+.benefits-list {
+  list-style-type: none;
+}
+.benefits-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+.benefits-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+/* END BENEFITS */
+/* ACTIVITIES */
+/* .activities-title {}      for future positioning */
+.activities-list {
+  list-style-type: none;
+}
+/* END ACTIVITIES */
+/* EMPLOYEES */
+/* .employees-title {}      for future positioning */
+.employees-list {
+  list-style-type: none;
+}
+.employees-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+.employees-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+}
+/* END EMPLOYEES */
+/* ===================== END INDEX HTML ===================== */
+
+/* ===================== PORTFOLIO HTML ===================== */
+.portfolio-nav-list,
+.portfolio-content-list {
+  list-style-type: none;
+}
+.portfolio-nav-item > .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+.portfolio-nav-item > .btn:hover,
+.portfolio-nav-item > .btn:focus {
+  color: var(--alternative-text-color);
+}
+.portfolio-content-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+.portfolio-content-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+}
+/* ===================== END PORTFOLIO HTML ===================== */
