@@ -246,7 +246,7 @@ ul {
 /*  END HERO */
 /* BENEFITS */
 .benefits {
-  margin-top: var(--section-padding);
+  padding-top: var(--section-padding);
 }
 
 .benefits-list {
@@ -279,7 +279,8 @@ ul {
 /* END BENEFITS */
 /* ACTIVITIES */
 .activities {
-  margin-top: var(--section-padding);
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .activities-list {
@@ -298,7 +299,6 @@ ul {
 /* END ACTIVITIES */
 /* EMPLOYEES */
 .employees {
-  margin-top: var(--section-padding);
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 
